@@ -1,7 +1,7 @@
 //player input
 var key_left = keyboard_check(ord("A"));
 var key_right = keyboard_check(ord("D"));
-var key_attack = keyboard_check(vk_enter);
+var key_attack = keyboard_check(vk_enter) || mouse_check_button(mb_left);
 var key_jump = keyboard_check(vk_space);
 
 //movement calc
