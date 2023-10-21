@@ -18,8 +18,16 @@
   "ResourceOrderSettings": [
     {"name":"sPlayerA","order":3,"path":"sprites/sPlayerA/sPlayerA.yy",},
     {"name":"sPlayerR","order":2,"path":"sprites/sPlayerR/sPlayerR.yy",},
-    {"name":"sPlayerW","order":5,"path":"sprites/sPlayerW/sPlayerW.yy",},
+    {"name":"sSlimeB_D","order":10,"path":"sprites/sSlimeB_D/sSlimeB_D.yy",},
+    {"name":"sSlimeB_J","order":9,"path":"sprites/sSlimeB_J/sSlimeB_J.yy",},
+    {"name":"sSlimeB_R","order":11,"path":"sprites/sSlimeB_R/sSlimeB_R.yy",},
+    {"name":"sSlimeR_R","order":12,"path":"sprites/sSlimeR_R/sSlimeR_R.yy",},
+    {"name":"sPlayerW","order":4,"path":"sprites/sPlayerW/sPlayerW.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"sSlimeR","order":5,"path":"sprites/sSlimeR/sSlimeR.yy",},
+    {"name":"sSlimeR_D","order":7,"path":"sprites/sSlimeR_D/sSlimeR_D.yy",},
+    {"name":"sSlimeB","order":8,"path":"sprites/sSlimeB/sSlimeB.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
+    {"name":"sSlimeR_J","order":6,"path":"sprites/sSlimeR_J/sSlimeR_J.yy",},
   ],
 }
