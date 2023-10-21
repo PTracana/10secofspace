@@ -69,7 +69,6 @@
     {"name":"inst_341ADF7A","path":"rooms/MainHub/MainHub.yy",},
     {"name":"inst_3A6651F0","path":"rooms/MainHub/MainHub.yy",},
     {"name":"inst_2F44333D","path":"rooms/MainHub/MainHub.yy",},
-    {"name":"inst_1CF2BC48","path":"rooms/MainHub/MainHub.yy",},
     {"name":"inst_20685380","path":"rooms/MainHub/MainHub.yy",},
     {"name":"inst_41F53549","path":"rooms/MainHub/MainHub.yy",},
     {"name":"inst_2C4FDEE3","path":"rooms/MainHub/MainHub.yy",},
@@ -104,11 +103,12 @@
     {"name":"inst_56D6C112","path":"rooms/MainHub/MainHub.yy",},
     {"name":"inst_595A1930","path":"rooms/MainHub/MainHub.yy",},
     {"name":"inst_37738877","path":"rooms/MainHub/MainHub.yy",},
+    {"name":"inst_6AEF91AD","path":"rooms/MainHub/MainHub.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1CF2BC48","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"rotation":-0.03426402,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":384.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6AEF91AD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":384.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Weapon","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"walls","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
