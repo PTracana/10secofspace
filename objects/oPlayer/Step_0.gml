@@ -9,7 +9,15 @@ var move = key_right - key_left;
 
 hsp = move * walksp;
 vsp = vsp + grv;
+camera = camera_get_default();
 
+//check if alive
+if (oPlayer.hp <= 0) {
+	draw_set_color(c_red);
+	draw_set_halign(fa_center);
+	draw_set_font(fDied);
+	draw_text(700,285, "YOU DIED");
+}
 
 //jump
 if (place_meeting(x, y + 1, oWall)) && (key_jump) {
