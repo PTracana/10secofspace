@@ -1,5 +1,5 @@
 with (other) {
-	if (oPlayer.sprite_index == sPlayerW) {
+	if (oPlayer.sprite_index == sPlayerW ) {
 		hp --;
 		flash = 3;
 	}

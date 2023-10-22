@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "AliveObjects",
+    "path": "folders/Objects/AliveObjects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -33,9 +33,6 @@
     "name": "sPlayer",
     "path": "sprites/sPlayer/sPlayer.yy",
   },
-  "spriteMaskId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

@@ -10,6 +10,7 @@ var move = key_right - key_left;
 hsp = move * walksp;
 vsp = vsp + grv;
 
+
 //jump
 if (place_meeting(x, y + 1, oWall)) && (key_jump) {
 	vsp = -10;
@@ -47,13 +48,13 @@ if (!place_meeting(x, y + 1, oWall)) {
 	
 	if (hsp = 0){
 		if(key_attack){
-			sprite_index = sPlayerW
+			sprite_index = sPlayerW;
 		} else {
 			sprite_index = sPlayer;
 		}	
 		
 	} else {
-		sprite_index = sPlayerR;		
+		sprite_index = sPlayerR;	
 	}
 }
 

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWall",
+  "name": "oBarHp",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sWall",
-    "path": "sprites/sWall/sWall.yy",
+    "name": "sBarHp",
+    "path": "sprites/sBarHp/sBarHp.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -4,7 +4,7 @@
   "name": "sPlayer",
   "bbox_bottom": 209,
   "bbox_left": 74,
-  "bbox_right": 127,
+  "bbox_right": 126,
   "bbox_top": 21,
   "bboxMode": 2,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5f350c22-3034-4642-b835-d47e09355297",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4fc255d9-4385-4cac-864a-8e452aa43419",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 210,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b780e201-9086-4df9-9aa7-b11cb02f8200","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7449a9cd-8344-4749-8f69-944650a322d5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -48,8 +48,8 @@
   },
   "origin": 9,
   "parent": {
-    "name": "Sprites_Player",
-    "path": "folders/Animation Curves/Sprites_Player.yy",
+    "name": "Sprites",
+    "path": "folders/Animation Curves/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5f350c22-3034-4642-b835-d47e09355297","path":"sprites/sPlayer/sPlayer.yy",},},},"Disabled":false,"id":"18647965-c7b6-4208-8646-2ae918cd17b3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4fc255d9-4385-4cac-864a-8e452aa43419","path":"sprites/sPlayer/sPlayer.yy",},},},"Disabled":false,"id":"a2c3342c-a3ef-4d10-bce0-184cf6cf3de8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

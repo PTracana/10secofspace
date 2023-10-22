@@ -4,7 +4,7 @@
   "name": "sPlayerA",
   "bbox_bottom": 202,
   "bbox_left": 74,
-  "bbox_right": 130,
+  "bbox_right": 126,
   "bbox_top": 13,
   "bboxMode": 2,
   "collisionKind": 1,
@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Sprites_Player",
-    "path": "folders/Animation Curves/Sprites_Player.yy",
+    "name": "Sprites",
+    "path": "folders/Animation Curves/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -62,7 +62,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 105,
-    "yorigin": 106,
+    "yorigin": 102,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

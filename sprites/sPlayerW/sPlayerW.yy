@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "sPlayerW",
   "bbox_bottom": 209,
-  "bbox_left": 66,
+  "bbox_left": 74,
   "bbox_right": 198,
-  "bbox_top": 20,
+  "bbox_top": 15,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -49,8 +49,8 @@
   },
   "origin": 9,
   "parent": {
-    "name": "Sprites_Player",
-    "path": "folders/Animation Curves/Sprites_Player.yy",
+    "name": "Sprites",
+    "path": "folders/Animation Curves/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
