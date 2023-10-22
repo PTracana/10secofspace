@@ -20,6 +20,7 @@
     {"name":"MapObjects","order":3,"path":"folders/Objects/MapObjects.yy",},
     {"name":"AliveObjects","order":4,"path":"folders/Objects/AliveObjects.yy",},
     {"name":"Sprites_Map","order":3,"path":"folders/Animation Curves/Sprites_Map.yy",},
+    {"name":"DeadObjects","order":5,"path":"folders/Objects/DeadObjects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sPlayerA","order":3,"path":"sprites/sPlayerA/sPlayerA.yy",},
