@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Animation Curves/Sprites.yy",
+    "name": "Sprites_Map",
+    "path": "folders/Animation Curves/Sprites_Map.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
