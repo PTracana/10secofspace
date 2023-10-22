@@ -35,8 +35,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Animation Curves/Sprites.yy",
+    "name": "Slimes",
+    "path": "folders/Animation Curves/Sprites_Enemies/Slimes.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -51,8 +51,8 @@
   },
   "origin": 9,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Animation Curves/Sprites.yy",
+    "name": "Sprites_Player",
+    "path": "folders/Animation Curves/Sprites_Player.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
