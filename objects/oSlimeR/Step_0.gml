@@ -1,4 +1,5 @@
 vsp = vsp + grv;
+invulnerability_frames --;
 
 //horizontal collision
 if (place_meeting(x + hsp, y, oWall)) {

@@ -2,6 +2,7 @@
 var key_left = keyboard_check(ord("A"));
 var key_right = keyboard_check(ord("D"));
 var key_attack = keyboard_check(vk_enter) || mouse_check_button(mb_left);
+var key_power = keyboard_check(ord("E")) || mouse_check_button(mb_right);
 var key_jump = keyboard_check(vk_space);
 
 //movement calc
@@ -10,6 +11,8 @@ var move = key_right - key_left;
 hsp = move * walksp;
 vsp = vsp + grv;
 camera = camera_get_default();
+invulnerability_frames --;
+power1_delay --;
 
 //check if alive
 if (oPlayer.hp <= 0) {
@@ -57,6 +60,23 @@ if (!place_meeting(x, y + 1, oWall)) {
 	if (hsp = 0){
 		if(key_attack){
 			sprite_index = sPlayerW;
+			
+		} else if (key_power) && (power1_delay < 0){
+			sprite_index = sPower1;
+			
+			if (sprite_index == sPower1 && image_index == 2 && power1_stacks > 0){
+				power1_stacks --;
+				power1_delay = 10;
+				
+				with (instance_create_layer(x + 10, y , "Projectiles", oPower1_fire)) {
+					speed = 15;
+					if (other.image_xscale == -1){
+						direction = 180;
+						image_xscale = -1;
+					} 
+					
+				}
+			}
 		} else {
 			sprite_index = sPlayer;
 		}	
