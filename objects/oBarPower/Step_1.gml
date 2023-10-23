@@ -1,6 +1,4 @@
-image_index = oPlayer.hp;
-
-//Update destination
+/*//Update destination
 if (instance_exists(oCamera)) {
 	xTo = oCamera.x;
 	yTo = oCamera.y;

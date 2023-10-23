@@ -28,7 +28,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7ddb2521-6522-4a9e-9fc8-46717237db96","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 3,
   "parent": {
     "name": "Sprites_UI",
     "path": "folders/Animation Curves/Sprites_UI.yy",
@@ -69,7 +69,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 100,
+    "xorigin": 0,
     "yorigin": 50,
   },
   "swatchColours": null,
