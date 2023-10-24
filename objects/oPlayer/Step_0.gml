@@ -7,7 +7,7 @@ var key_power_absorb = keyboard_check(vk_shift);
 var key_jump = keyboard_check(vk_space);
 
 //movement calc
-var move = key_right - key_left; 
+var move = key_right - key_left;
 
 hsp = move * walksp;
 vsp = vsp + grv;
@@ -15,8 +15,13 @@ camera = camera_get_default();
 invulnerability_frames --;
 power1_delay --;
 
+/*
+if (hp != past_step_hp) {
+	hsp = sign(hsp) * 2;
+}
+past_step_hp = hp;
 //check if alive
-/*if (oPlayer.hp == 0) {
+if (oPlayer.hp == 0) {
 	draw_set_color(c_red);
 	draw_set_halign(fa_center);
 	draw_set_font(fDied);
@@ -81,7 +86,7 @@ if (!place_meeting(x, y + 1, oWall)) {
 						if (other.image_xscale == -1){
 							direction = 180;
 							image_xscale = -1;
-						} 
+						}
 					}
 				} else if (oBarPower.image_index == 3){
 					
@@ -101,7 +106,7 @@ if (!place_meeting(x, y + 1, oWall)) {
 		
 		} else {
 			sprite_index = sPlayer;
-		}	
+		}
 	} else {
 		sprite_index = sPlayerR;	
 	}
