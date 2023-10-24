@@ -15,19 +15,20 @@ camera = camera_get_default();
 invulnerability_frames --;
 power1_delay --;
 
-/*
-if (hp != past_step_hp) {
-	hsp = sign(hsp) * 2;
+if (hp == 0) {
+	death_height = y;
+	death_width = x;
+	oPlayer.image_alpha = 0;
+	instance_destroy(oSlimeB);
+	instance_destroy(oSlimeR);
+	instance_destroy(oTurret);
+	oBarHp.image_alpha = 0;
+	oBarTime.image_alpha = 0;
+	oBarPower.image_alpha = 0;
+	hsp = 0;
+	vsp = 0;
+	restart = true;
 }
-past_step_hp = hp;
-//check if alive
-if (oPlayer.hp == 0) {
-	draw_set_color(c_red);
-	draw_set_halign(fa_center);
-	draw_set_font(fDied);
-	draw_text(700,285, "YOU DIED");
-	instance_deactivate_all(true);
-}*/
 
 //lose power 1
 if (power1_stacks == 0 || time == 0) {

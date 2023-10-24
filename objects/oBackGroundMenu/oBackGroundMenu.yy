@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWall",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "oBackGroundMenu",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "MapObjects",
-    "path": "folders/Objects/MapObjects.yy",
+    "name": "UIObejects",
+    "path": "folders/Objects/UIObejects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sWall",
-    "path": "sprites/sWall/sWall.yy",
+    "name": "sbackgroundMenu",
+    "path": "sprites/sbackgroundMenu/sbackgroundMenu.yy",
   },
   "spriteMaskId": null,
   "visible": true,

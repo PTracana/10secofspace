@@ -12,7 +12,9 @@ power1_delay = 0;
 absorb_counter = 60;
 power1_stacks = 0;
 
-hascontrol = true;
+restart = false;
+death_height = 0;
+death_width = 0;
 
 //past_step_hp = 0;
 

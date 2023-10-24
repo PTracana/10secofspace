@@ -1,3 +1,3 @@
 target = MainHub2;
 targetX = 370;
-targetY = 740;
+targetY = 640;
