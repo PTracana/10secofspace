@@ -4,7 +4,7 @@ view_h_half = camera_get_view_height(cam) * 0.5;
 xTo = xstart;
 yTo = ystart;
 
-image_index = 0;
+image_index = 1;
 
 
 

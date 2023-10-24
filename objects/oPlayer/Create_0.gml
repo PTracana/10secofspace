@@ -9,7 +9,6 @@ time = 10;
 flash = 0;
 invulnerability_frames = 0;
 power1_delay = 0;
-power1_stacks = 10;
-
-
+absorb_counter = 60;
+power1_stacks = 0;
 
