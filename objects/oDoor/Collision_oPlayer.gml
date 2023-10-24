@@ -1,7 +1,3 @@
-with (oPlayer)
-{
-	SlideTransition(TRANS_MODE.GOTO,other.target);
-}
-
-
-
+room_goto(target);
+other.x = targetX;
+other.y = targetY;

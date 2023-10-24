@@ -40,7 +40,6 @@
     {"name":"sSlimeB_A","order":1,"path":"sprites/sSlimeB_A/sSlimeB_A.yy",},
     {"name":"sSlimeB_R","order":3,"path":"sprites/sSlimeB_R/sSlimeB_R.yy",},
     {"name":"sTurret_blast","order":3,"path":"sprites/sTurret_blast/sTurret_blast.yy",},
-    {"name":"oTransition","order":1,"path":"objects/oTransition/oTransition.yy",},
     {"name":"sPower1","order":7,"path":"sprites/sPower1/sPower1.yy",},
     {"name":"sSlimeR_R","order":7,"path":"sprites/sSlimeR_R/sSlimeR_R.yy",},
     {"name":"sPlayerW","order":4,"path":"sprites/sPlayerW/sPlayerW.yy",},
