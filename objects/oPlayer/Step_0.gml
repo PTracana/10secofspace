@@ -71,7 +71,7 @@ if (!place_meeting(x, y + 1, oWall)) {
 		} else if (key_power) && (power1_delay < 0){
 			sprite_index = sPower1;
 			
-			if (sprite_index == sPower1 && image_index == 2 && power1_stacks != 0){
+			if (image_index == 2 && power1_stacks != 0){
 				power1_stacks --;
 				power1_delay = 10;
 				if (oBarPower.image_index == 2) {
@@ -83,11 +83,8 @@ if (!place_meeting(x, y + 1, oWall)) {
 							image_xscale = -1;
 						} 
 					}
-				}
-			} else if (sprite_index == sPower1 && image_index == 2 && power1_stacks != 0){
-				power1_stacks --;
-				power1_delay = 10;
-				if (oBarPower.image_index == 3) {
+				} else if (oBarPower.image_index == 3){
+					
 					with (instance_create_layer(x + 10, y , "Projectiles", oPower1_ice)) {
 						speed = 15;
 						other.time --;
@@ -97,14 +94,14 @@ if (!place_meeting(x, y + 1, oWall)) {
 						} 
 					}
 				}
-			}
-		} else if (key_power_absorb) && (time > 0){
+			} 
+		}
+		else if (key_power_absorb) && (time > 0){
 			sprite_index = sPlayerAb;
 		
 		} else {
 			sprite_index = sPlayer;
 		}	
-		
 	} else {
 		sprite_index = sPlayerR;	
 	}
