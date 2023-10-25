@@ -59,6 +59,13 @@ if (place_meeting(x + hsp, y, oFlameWall)) {
 	hsp = 0;
 }
 
+if (place_meeting(x + hsp, y, oIceWall)) {
+	while (!place_meeting(x + sign(hsp), y, oIceWall)) {
+		x = x + sign(hsp);
+	}
+	hsp = 0;
+}
+
 x = x + hsp;
 
 //vertical collision

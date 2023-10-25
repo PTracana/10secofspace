@@ -10,6 +10,20 @@ if (place_meeting(x + hsp, y, oWall)) {
 }
 x = x + hsp;
 
+if (place_meeting(x + hsp, y, oIceWall)) {
+	while (!place_meeting(x + sign(hsp), y, oIceWall)) {
+		x = x + sign(hsp);
+	}
+	hsp = -hsp;
+}
+
+if (place_meeting(x + hsp, y, oFlameWall)) {
+	while (!place_meeting(x + sign(hsp), y, oFlameWall)) {
+		x = x + sign(hsp);
+	}
+	hsp = -hsp;
+}
+
 //vertical collision
 if (place_meeting(x, y + vsp, oWall)) {
 	while (!place_meeting(x, y + sign(vsp), oWall)) {
