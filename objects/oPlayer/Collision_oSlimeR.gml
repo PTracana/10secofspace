@@ -3,6 +3,7 @@ with (other) {
 		hp --;
 		flash = 3;
 		invulnerability_frames = 20;
+		audio_play_sound(sndHit,0,false);
 	}
 	if (oPlayer.sprite_index == sPlayerAb) {
 		other.invulnerability_frames = 60;

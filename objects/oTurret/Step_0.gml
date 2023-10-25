@@ -50,6 +50,7 @@ if (!place_meeting(x, y + 1, oWall)) {
 		if ((image_xscale == -1) && (other.laser_delay < 0)) {
 			image_speed = 0;
 			with (instance_create_layer(x - 85, y - 35, "Projectiles", oTurret_blast)) {
+				audio_play_sound(sndLaser,0,false);
 				other.laser_delay = 120;
 				other.move_again = 60;
 				other.last_direction = -1;
@@ -65,6 +66,7 @@ if (!place_meeting(x, y + 1, oWall)) {
 		if ((image_xscale == 1) && (other.laser_delay < 0)) {
 			image_speed = 0;
 			with (instance_create_layer(x + 85, y - 35, "Projectiles", oTurret_blast)) {
+				audio_play_sound(sndLaser,0,false);
 				other.laser_delay = 120;
 				other.move_again = 60;
 				other.last_direction = 1;

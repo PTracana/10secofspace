@@ -3,6 +3,7 @@ with (other) {
 		hp --;
 		flash = 3;
 		invulnerability_frames = 60;
+		audio_play_sound(sndSlimeHit,0,false);
 	}
 }
 
