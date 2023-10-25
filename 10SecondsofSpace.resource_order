@@ -53,6 +53,7 @@
     {"name":"sPower1","order":7,"path":"sprites/sPower1/sPower1.yy",},
     {"name":"sSlimeR_R","order":7,"path":"sprites/sSlimeR_R/sSlimeR_R.yy",},
     {"name":"sPlayerW","order":4,"path":"sprites/sPlayerW/sPlayerW.yy",},
+    {"name":"RoomTwo","order":4,"path":"rooms/RoomTwo/RoomTwo.yy",},
     {"name":"oButtonQuit","order":7,"path":"objects/oButtonQuit/oButtonQuit.yy",},
     {"name":"oBarPower","order":1,"path":"objects/oBarPower/oBarPower.yy",},
     {"name":"oSlimeB_D","order":1,"path":"objects/oSlimeB_D/oSlimeB_D.yy",},
