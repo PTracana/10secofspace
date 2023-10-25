@@ -59,7 +59,7 @@
     {"name":"sSlimeR","order":4,"path":"sprites/sSlimeR/sSlimeR.yy",},
     {"name":"sSlimeR_D","order":6,"path":"sprites/sSlimeR_D/sSlimeR_D.yy",},
     {"name":"sTitle","order":10,"path":"sprites/sTitle/sTitle.yy",},
-    {"name":"MainHub2","order":1,"path":"rooms/MainHub2/MainHub2.yy",},
+    {"name":"RoomOne","order":1,"path":"rooms/RoomOne/RoomOne.yy",},
     {"name":"sDoor","order":2,"path":"sprites/sDoor/sDoor.yy",},
     {"name":"oTurretD","order":2,"path":"objects/oTurretD/oTurretD.yy",},
     {"name":"oButtonPlay","order":5,"path":"objects/oButtonPlay/oButtonPlay.yy",},

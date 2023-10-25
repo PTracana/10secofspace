@@ -1,3 +1,3 @@
-target = MainHub2;
+target = RoomOne;
 targetX = 370;
-targetY = 640;
+targetY = 745;
