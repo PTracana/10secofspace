@@ -47,6 +47,17 @@ if (place_meeting(x + hsp, y, oWall)) {
 	}
 	hsp = 0;
 }
+if (place_meeting(x + hsp, y, oFlameWall)) {
+	while (!place_meeting(x + sign(hsp), y, oFlameWall)) {
+		x = x + sign(hsp);
+	}
+	if (invulnerability_frames < 0){
+		hp --;
+		flash = 3;
+		invulnerability_frames = 60;
+	}
+	hsp = 0;
+}
 
 x = x + hsp;
 

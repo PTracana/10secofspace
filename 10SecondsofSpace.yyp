@@ -45,6 +45,7 @@
     {"id":{"name":"oPower1_ice","path":"objects/oPower1_ice/oPower1_ice.yy",},},
     {"id":{"name":"ButtonParent","path":"objects/ButtonParent/ButtonParent.yy",},},
     {"id":{"name":"sPower1_fire","path":"sprites/sPower1_fire/sPower1_fire.yy",},},
+    {"id":{"name":"oFlameWall","path":"objects/oFlameWall/oFlameWall.yy",},},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},},
@@ -104,6 +105,7 @@
     {"id":{"name":"sPower1_ice","path":"sprites/sPower1_ice/sPower1_ice.yy",},},
     {"id":{"name":"oBackGroundMenu","path":"objects/oBackGroundMenu/oBackGroundMenu.yy",},},
     {"id":{"name":"sYellow","path":"sprites/sYellow/sYellow.yy",},},
+    {"id":{"name":"sFlameWall","path":"sprites/sFlameWall/sFlameWall.yy",},},
     {"id":{"name":"MainHub","path":"rooms/MainHub/MainHub.yy",},},
   ],
   "RoomOrderNodes": [

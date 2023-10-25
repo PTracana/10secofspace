@@ -27,6 +27,7 @@
     {"name":"oPower1_ice","order":4,"path":"objects/oPower1_ice/oPower1_ice.yy",},
     {"name":"ButtonParent","order":4,"path":"objects/ButtonParent/ButtonParent.yy",},
     {"name":"sPower1_fire","order":6,"path":"sprites/sPower1_fire/sPower1_fire.yy",},
+    {"name":"oFlameWall","order":3,"path":"objects/oFlameWall/oFlameWall.yy",},
     {"name":"sPlayerA","order":3,"path":"sprites/sPlayerA/sPlayerA.yy",},
     {"name":"sPlayerR","order":2,"path":"sprites/sPlayerR/sPlayerR.yy",},
     {"name":"sElevator","order":1,"path":"sprites/sElevator/sElevator.yy",},
@@ -76,5 +77,6 @@
     {"name":"sPower1_ice","order":9,"path":"sprites/sPower1_ice/sPower1_ice.yy",},
     {"name":"oBackGroundMenu","order":6,"path":"objects/oBackGroundMenu/oBackGroundMenu.yy",},
     {"name":"sYellow","order":6,"path":"sprites/sYellow/sYellow.yy",},
+    {"name":"sFlameWall","order":3,"path":"sprites/sFlameWall/sFlameWall.yy",},
   ],
 }
