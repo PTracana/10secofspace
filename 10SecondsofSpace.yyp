@@ -63,6 +63,7 @@
     {"id":{"name":"sBarTime","path":"sprites/sBarTime/sBarTime.yy",},},
     {"id":{"name":"sGreen","path":"sprites/sGreen/sGreen.yy",},},
     {"id":{"name":"sPlayerAb","path":"sprites/sPlayerAb/sPlayerAb.yy",},},
+    {"id":{"name":"RoomD","path":"rooms/RoomD/RoomD.yy",},},
     {"id":{"name":"sBlue","path":"sprites/sBlue/sBlue.yy",},},
     {"id":{"name":"oBarTime","path":"objects/oBarTime/oBarTime.yy",},},
     {"id":{"name":"sSlimeB_A","path":"sprites/sSlimeB_A/sSlimeB_A.yy",},},
@@ -114,6 +115,7 @@
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"MainHub","path":"rooms/MainHub/MainHub.yy",},},
     {"roomId":{"name":"RoomOne","path":"rooms/RoomOne/RoomOne.yy",},},
+    {"roomId":{"name":"RoomD","path":"rooms/RoomD/RoomD.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

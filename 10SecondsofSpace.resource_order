@@ -43,6 +43,7 @@
     {"name":"sBarTime","order":2,"path":"sprites/sBarTime/sBarTime.yy",},
     {"name":"sGreen","order":5,"path":"sprites/sGreen/sGreen.yy",},
     {"name":"sPlayerAb","order":8,"path":"sprites/sPlayerAb/sPlayerAb.yy",},
+    {"name":"RoomD","order":3,"path":"rooms/RoomD/RoomD.yy",},
     {"name":"sBlue","order":3,"path":"sprites/sBlue/sBlue.yy",},
     {"name":"oBarTime","order":2,"path":"objects/oBarTime/oBarTime.yy",},
     {"name":"sSlimeB_A","order":1,"path":"sprites/sSlimeB_A/sSlimeB_A.yy",},
