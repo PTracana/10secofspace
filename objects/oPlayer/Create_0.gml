@@ -16,5 +16,7 @@ restart = false;
 death_height = 0;
 death_width = 0;
 
+absorb_delay_sound = 0;
+
 //past_step_hp = 0;
 

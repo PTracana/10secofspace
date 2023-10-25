@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sndAreaTheme",
+  "name": "sndGetItem",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 96.05221,
+  "duration": 0.653042,
   "parent": {
-    "name": "Themes",
-    "path": "folders/Sounds/Themes.yy",
+    "name": "Map",
+    "path": "folders/Sounds/Map.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sndAreaTheme.mp3",
+  "soundFile": "sndGetItem.mp3",
   "type": 0,
-  "volume": 0.2,
+  "volume": 0.5,
 }

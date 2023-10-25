@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_kill",
+  "name": "sndFireshot",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.436708,
+  "duration": 1.828542,
   "parent": {
     "name": "Player",
     "path": "folders/Sounds/Player.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_kill.mp3",
+  "soundFile": "sndFireshot.mp3",
   "type": 0,
-  "volume": 0.3,
+  "volume": 1.0,
 }

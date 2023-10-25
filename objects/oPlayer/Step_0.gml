@@ -14,6 +14,7 @@ vsp = vsp + grv;
 camera = camera_get_default();
 invulnerability_frames --;
 power1_delay --;
+absorb_delay_sound --;
 
 if (hp == 0) {
 	death_height = y;
@@ -99,6 +100,7 @@ if (!place_meeting(x, y + 1, oWall)) {
 				power1_stacks --;
 				power1_delay = 10;
 				if (oBarPower.image_index == 2) {
+					audio_play_sound(sndFireshot,0,false);
 					with (instance_create_layer(x + 10, y , "Projectiles", oPower1_fire)) {
 						speed = 15;
 						other.time --;
@@ -108,7 +110,7 @@ if (!place_meeting(x, y + 1, oWall)) {
 						}
 					}
 				} else if (oBarPower.image_index == 3){
-					
+					audio_play_sound(sndIceShot,0,false);
 					with (instance_create_layer(x + 10, y , "Projectiles", oPower1_ice)) {
 						speed = 15;
 						other.time --;
@@ -122,6 +124,10 @@ if (!place_meeting(x, y + 1, oWall)) {
 		}
 		else if (key_power_absorb) && (time > 0){
 			sprite_index = sPlayerAb;
+			if(absorb_delay_sound < 0) {
+				audio_play_sound(sndPowerCharge,0,false,1,0,random_range(0.9,1));
+				absorb_delay_sound = 50;
+			}
 		
 		} else {
 			sprite_index = sPlayer;
